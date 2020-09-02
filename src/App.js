@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import DisplayMap from './DisplayMap';
+
 function App() {
-  return <h1>minimal react</h1>;
+  return <DisplayMap />;
 }
 
 export default App;
